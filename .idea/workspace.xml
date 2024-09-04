@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a5c1bd-6e34-46c9-bbf1-264faf80d1ca" name="Changes" comment="" />
+    <list default="true" id="91a5c1bd-6e34-46c9-bbf1-264faf80d1ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Day3/Digits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3/SecondSmallest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day4/Exercies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day3/Anagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day3/Anagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day3/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day3/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day3/Exercies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day3/Exercies.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,30 +46,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Answer1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Answer2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Answer3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Answer4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Answer5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Exercise.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Hello.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Simple.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/emiljumadil/IdeaProjects/hallo/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Answer1.executor": "Run",
+    "Application.Answer2.executor": "Run",
+    "Application.Answer3.executor": "Run",
+    "Application.Answer4.executor": "Run",
+    "Application.Answer5.executor": "Run",
+    "Application.Exercise.executor": "Run",
+    "Application.Hello.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Simple.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Rebasing dev",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/emiljumadil/IdeaProjects/hallo/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.general",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Date Difference Calculator" />
