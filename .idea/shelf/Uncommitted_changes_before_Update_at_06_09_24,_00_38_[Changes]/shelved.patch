@@ -1,0 +1,1265 @@
+Index: src/Day4/Exercies.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//  package Day4;\n//import java.util.Scanner;\n//\n//  public class Exercies {\n//    public static void main(String[] args) {\n//\n//        // Answer 1\n//        System.out.println(\"Enter a number.\");\n//\n//        // Answer 2\n//        System.out.println(\"Enter the number of rows.\");\n//\n//        int a = new Scanner(System.in).nextInt();\n//\n//        switch (a)\n//        {\n//            case 1:\n//                MultiplicationTable;\n//                break;\n//\n//            case 2:\n//                Object Parentheses;\n//                break;\n//            case 3:\n//                NumberGuessing.numberGuessing();\n//                break;\n//\n//            case 4:\n//                NumberGuessingGame.umberGuessingGame();\n//                break;\n//\n//            case 5:\n//                SwapCharacter.swapCharacter();\n//                break;\n//\n//               default:\n//                 System.out.println(\"Invalid choice\");\n//                break;\n//                        }\n//                  scan.close();\n//\n//            }\n//    }\n// }\n//\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Day4/Exercies.java b/src/Day4/Exercies.java
+--- a/src/Day4/Exercies.java	(revision 83cc44b7636384b3a0d589ca97b31ad2f55723d8)
++++ b/src/Day4/Exercies.java	(date 1725557921166)
+@@ -1,45 +1,43 @@
+-//  package Day4;
+-//import java.util.Scanner;
+-//
+-//  public class Exercies {
+-//    public static void main(String[] args) {
+-//
+-//        // Answer 1
+-//        System.out.println("Enter a number.");
+-//
+-//        // Answer 2
+-//        System.out.println("Enter the number of rows.");
+-//
+-//        int a = new Scanner(System.in).nextInt();
+-//
+-//        switch (a)
+-//        {
+-//            case 1:
+-//                MultiplicationTable;
+-//                break;
+-//
+-//            case 2:
+-//                Object Parentheses;
+-//                break;
+-//            case 3:
+-//                NumberGuessing.numberGuessing();
+-//                break;
+-//
+-//            case 4:
+-//                NumberGuessingGame.umberGuessingGame();
+-//                break;
+-//
+-//            case 5:
+-//                SwapCharacter.swapCharacter();
+-//                break;
+-//
+-//               default:
+-//                 System.out.println("Invalid choice");
+-//                break;
+-//                        }
+-//                  scan.close();
+-//
+-//            }
+-//    }
+-// }
+-//
++  package Day4;
++import java.util.Scanner;
++
++  public class Exercies {
++    public static void main(String[] args) {
++
++        // Answer 1
++        System.out.println("Enter a number.");
++
++        // Answer 2
++        System.out.println("Enter the number of rows.");
++
++        int a = new Scanner(System.in).nextInt();
++
++        switch (a)
++        {
++            case 1:
++                Object MultiplicationTable;
++                break;
++
++            case 2:
++                Object Parentheses;
++                break;
++            case 3:
++                Object NumberGuessing;
++                break;
++
++            case 4:
++                Object NumberGuessingGame;
++                break;
++
++            case 5:
++                Object SwapCharacter;
++                break;
++
++               default:
++                 System.out.println("Invalid choice");
++                break;
++                        }
++
++            }
++    }
++
+Index: src/Answer5.java
+===================================================================
+diff --git a/src/Answer5.java b/src/Answer5.java
+deleted file mode 100644
+--- a/src/Answer5.java	(revision 045c7446fa930b3cb3017b3233c46090188b289e)
++++ /dev/null	(revision 045c7446fa930b3cb3017b3233c46090188b289e)
+@@ -1,15 +0,0 @@
+-import java.time.LocalDate;
+-import java.time.temporal.ChronoUnit;
+-
+-import java.util.Scanner;
+-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+-//public class Answer5 {
+-//
+-//    public static void main(String[] args) {
+-//     String name = "";
+-//     String firstInitial = name.substring(0,1);
+-
+-
+-
+-
+Index: src/Answer1.java
+===================================================================
+diff --git a/src/Answer1.java b/src/Answer1.java
+deleted file mode 100644
+--- a/src/Answer1.java	(revision 045c7446fa930b3cb3017b3233c46090188b289e)
++++ /dev/null	(revision 045c7446fa930b3cb3017b3233c46090188b289e)
+@@ -1,20 +0,0 @@
+-import java.time.LocalDate;
+-import java.time.temporal.ChronoUnit;
+-
+-import java.util.Scanner;
+-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+-public class Answer1 {
+-    private static Object Public;
+-        public static void main(String[] args) {
+-    // 1. Find area of rectangle {
+-        int length = 5;
+-        int width = 3;
+-        int legthAnwidth = 5 * 3;
+-
+-        System.out.println(legthAnwidth);
+-    }
+-}
+-
+-
+-
+Index: src/Day4/Pattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Day4/Pattern.java b/src/Day4/Pattern.java
+new file mode 100644
+--- /dev/null	(date 1725557289323)
++++ b/src/Day4/Pattern.java	(date 1725557289323)
+@@ -0,0 +1,30 @@
++//package Day4;
++//
++//import java.util.Scanner;
++//
++//
++//public class Pattern {
++//    public static void printTriangle(int n) {
++//        for (int i = 1; i <= n; i++) {
++//            for (int j = n; j > i; j--) {
++//                System.out.print(" ");
++//
++//            }
++//            for (int k = 1; k <= i; k++) {
++//
++//                System.out.print("*");
++//            }
++//            System.out.println();
++//        }
++//    }
++//
++//    public static void main(String[] args) {
++//        Scanner scanner = new Scanner(System.in);
++//        System.out.println("Enter the number of rows :");
++//        int n = scanner.nextInt();
++//
++//        printTriangle(n);
++//
++//    }
++//
++//}
+Index: src/Day2/Answer1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.Scanner;\n\npublic class Answer1 {\n    private static Object Public;\n\n\n      public static void runExercises() {\n         // Answer 1\n         Scanner scanner = new Scanner(System.in);\n         System.out.println(\"In put temperature to fahrenheit\");\n         double rawtemPerature = scanner.nextDouble();\n         double celsius = rawtemPerature * 1.8 + 32;\n         System.out.println(\"Temperature in Celsius: \" + celsius);\n\n     }\n\n     public static double runExercises(double centimeter) {\n         // Answer 2\n//         return centimeter / 100000.0; // 1 kilometer = 100000 centimeter\n         Scanner scanner = new Scanner(System.in);\n         System.out.println(\"Enter the value of Centimeter\");\n         double Centimeter = scanner.nextDouble();\n\n         // Change distace\n         double kilometer = (centimeter);\n         System.out.println(\"Kilometer = \" + kilometer);\n         scanner.close();\n      return kilometer;}\n\n     public static boolean isOdd(int n) {\n//     // Answer 3\n         return n % 2 != 0;\n     }\n\n     public static void main(String[] args) {\n         boolean isGitInstalled;\n         Scanner scanner = new Scanner(System.in);\n         int n = scanner.nextInt();\n         Boolean result = isOdd(n);\n         System.out.println(\"The number is odd: \" + result);\n         scanner.close();\n\n     }\n }\n\n     // Answer 4\n     public static double runExercises(String[] args) {\n         Scanner scaner = new Scanner(System.in);\n\n      //   String Main and search\n         String mainString = \"Hello world\";\n         String searchString = \"ell\" + \"Ho world\";\n\n      //   Remove\n         String resultString = (mainString, searchString);\n\n         System.out.println(\"Enter the first occurrence of \" + mainString);\n         System.out.println(\"Enter the second occurrence of \" + searchString);\n         System.out.println(\"String\" + resultString);\n\n         int index = resultString.indexOf(searchString);\n         int index = scaner.nextInt();\n         scaner.close();\n     }\n\n     public class PalindromeChecker {\n\n         // Answer 5\n         public static void main (String[] args) {\n             Scanner scaner = new Scanner(System.in);\n\n          //   String input\n             System.out.println(\"Enter string:\");\n             String inputString = scaner.nextLine();\n\n          //   Check inputString is palindrom\n             boolean isPalindrome = inputString.equals(inputString);\n\n          //   Result\n             if (isPalindrome) {\n                 System.out.println(inputString + \" is a palindrome\");\n             } else {\n                 System.out.println(inputString + \" is not a palindrome\");\n             }\n             scaner.close();\n         }\n\n\n\n\n\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Day2/Answer1.java b/src/Day2/Answer1.java
+--- a/src/Day2/Answer1.java	(revision 045c7446fa930b3cb3017b3233c46090188b289e)
++++ b/src/Day2/Answer1.java	(date 1725443392925)
+@@ -1,89 +1,101 @@
++package Day2;
++
+ import java.util.Scanner;
+ 
+ public class Answer1 {
+     private static Object Public;
+ 
+ 
+-      public static void runExercises() {
+-         // Answer 1
+-         Scanner scanner = new Scanner(System.in);
+-         System.out.println("In put temperature to fahrenheit");
+-         double rawtemPerature = scanner.nextDouble();
+-         double celsius = rawtemPerature * 1.8 + 32;
+-         System.out.println("Temperature in Celsius: " + celsius);
++//        // Answer 1
++//    public static void main(String[] args) {
++//        Scanner scanner = new Scanner(System.in);
++//
++//        System.out.println("Fahrenheit:");
++//        double fahrenheit = scanner.nextDouble();
++//
++//     // convert fahrenheit to celsius
++//        double celsius = (fahrenheit - 32) * 5 / 9;
++//
++//        System.out.println("Temperature in celcius :" + celsius);
++//        scanner.close();
++//
++//    }
++//
+ 
+-     }
++//        // Answer 2
++//    public static void main(String[] args) {
++//        Scanner scanner = new Scanner(System.in);
++//        System.out.println("Centimeter:");
++//        double Centimeter = scanner.nextDouble();
++//
++//        // Change distace
++//        double kilometer = Centimeter / 1000;
++//        System.out.println("Kilometer = " + kilometer);
++//        scanner.close();
++//
++//    }
+ 
+-     public static double runExercises(double centimeter) {
+-         // Answer 2
+-//         return centimeter / 100000.0; // 1 kilometer = 100000 centimeter
+-         Scanner scanner = new Scanner(System.in);
+-         System.out.println("Enter the value of Centimeter");
+-         double Centimeter = scanner.nextDouble();
+ 
+-         // Change distace
+-         double kilometer = (centimeter);
+-         System.out.println("Kilometer = " + kilometer);
+-         scanner.close();
+-      return kilometer;}
+-
+-     public static boolean isOdd(int n) {
+-//     // Answer 3
+-         return n % 2 != 0;
+-     }
++//    // Answer 3
++//    public static void main(String[] args) {
++//        Scanner scanner = new Scanner(System.in);
++//        System.out.println("");
++//        int n = scanner.nextInt();
++//
++//     // returns result
++//
++//        System.out.println("The number is even : " n % 1 == 0 ? ("Odd" : "Even true "));
++//        scanner.close();
+ 
+-     public static void main(String[] args) {
+-         boolean isGitInstalled;
+-         Scanner scanner = new Scanner(System.in);
+-         int n = scanner.nextInt();
+-         Boolean result = isOdd(n);
+-         System.out.println("The number is odd: " + result);
+-         scanner.close();
++//   }
+ 
+-     }
+- }
++//        boolean isGitInstalled;
++//        Scanner scanner = new Scanner(System.in);
++//        int n = scanner.nextInt();
++//        Boolean result = isOdd(n);
++//        return n % 2 != 0;
++//        System.out.println("The number is odd: " + result);
++//        scanner.close();
+ 
+-     // Answer 4
+-     public static double runExercises(String[] args) {
+-         Scanner scaner = new Scanner(System.in);
+-
+-      //   String Main and search
+-         String mainString = "Hello world";
+-         String searchString = "ell" + "Ho world";
+-
+-      //   Remove
+-         String resultString = (mainString, searchString);
++    // Answer 4
++//    public static void main(String[] args) {
++//       Scanner scaner = new Scanner(System.in);
++//
++//        //   String Main and search
++//        String stringToSearch = "Hello World";
++//
++        //   Remove
++//        String resultString = (stringToSearch.equals("Hello World"));
+ 
+-         System.out.println("Enter the first occurrence of " + mainString);
+-         System.out.println("Enter the second occurrence of " + searchString);
+-         System.out.println("String" + resultString);
++//        System.out.pr
+ 
+-         int index = resultString.indexOf(searchString);
+-         int index = scaner.nextInt();
+-         scaner.close();
+-     }
++//        int index = scaner.nextInt();
++//        scaner.close();
++    }
+ 
+-     public class PalindromeChecker {
+-
+-         // Answer 5
+-         public static void main (String[] args) {
+-             Scanner scaner = new Scanner(System.in);
++//        // Answer 5
++//        public static void main(String[] args) {
++//            Scanner scaner = new Scanner(System.in);
++//
++//            //   String input
++//            System.out.println("Enter string:");
++//            String inputString = scaner.nextLine();
++//
++//            //   Check inputString is palindrom
++//            boolean isPalindrome = inputString.equals(inputString);
++//
++//            //   Result
++//            if (isPalindrome) {
++//                System.out.println(inputString + " is a palindrome");
++//            } else {
++//                System.out.println(inputString + " is not a palindrome");
++//            }
++//            scaner.close();
++//        }
+ 
+-          //   String input
+-             System.out.println("Enter string:");
+-             String inputString = scaner.nextLine();
++// }
+ 
+-          //   Check inputString is palindrom
+-             boolean isPalindrome = inputString.equals(inputString);
+ 
+-          //   Result
+-             if (isPalindrome) {
+-                 System.out.println(inputString + " is a palindrome");
+-             } else {
+-                 System.out.println(inputString + " is not a palindrome");
+-             }
+-             scaner.close();
+-         }
+ 
+ 
+ 
+Index: src/Answer3.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Answer3.java b/src/Day1/Answer3.java
+rename from src/Answer3.java
+rename to src/Day1/Answer3.java
+--- a/src/Answer3.java	(revision 045c7446fa930b3cb3017b3233c46090188b289e)
++++ b/src/Day1/Answer3.java	(date 1725379194993)
+@@ -1,3 +1,5 @@
++package Day1;
++
+ public class Answer3 {
+     public static void main(String[] args) {
+ //      3. Find angels of triangle if two angles are given
+Index: src/Answer4.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Answer4.java b/src/Day1/Answer4.java
+rename from src/Answer4.java
+rename to src/Day1/Answer4.java
+--- a/src/Answer4.java	(revision 045c7446fa930b3cb3017b3233c46090188b289e)
++++ b/src/Day1/Answer4.java	(date 1725379194985)
+@@ -1,3 +1,5 @@
++package Day1;
++
+ import java.time.LocalDate;
+ import java.time.temporal.ChronoUnit;
+ 
+Index: src/Answer2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Answer2.java b/src/Day1/Answer2.java
+rename from src/Answer2.java
+rename to src/Day1/Answer2.java
+--- a/src/Answer2.java	(revision 045c7446fa930b3cb3017b3233c46090188b289e)
++++ b/src/Day1/Answer2.java	(date 1725379194997)
+@@ -1,3 +1,5 @@
++package Day1;
++
+ public class Answer2 {
+     private static Object Public;
+ 
+Index: src/Day4/NumberGuessing.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Day4/NumberGuessing.java b/src/Day4/NumberGuessing.java
+new file mode 100644
+--- /dev/null	(date 1725557289318)
++++ b/src/Day4/NumberGuessing.java	(date 1725557289318)
+@@ -0,0 +1,31 @@
++//package Day4;
++//
++//import java.util.ArrayList;
++//import java.util.Scanner;
++//
++//public class NumberGuessing {
++//
++//        public static void NumberGuessing()
++//        {
++//            Scanner scan = new Scanner(System.in);
++//            ArrayList <Integer> numbers = new ArrayList<>();
++//
++//            String choice;
++//
++//            //Loop to keep asking for numbers until "n".
++//            do
++//            {
++//                System.out.println("enter a number: ");
++//                int n = scan.nextInt();
++//                numbers.add(n);
++//
++//                //Ask the user if they want to continue.
++//                System.out.println("Continue? (y/n): ");
++//                choice = scan.next();
++//            }
++//            while (choice.equalsIgnoreCase("y"));
++//
++//            System.out.println("Numbers entered: "+ numbers);
++//        }
++//    }
++//
+Index: src/Day1/Answer5.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Day1/Answer5.java b/src/Day1/Answer5.java
+new file mode 100644
+--- /dev/null	(date 1725508442431)
++++ b/src/Day1/Answer5.java	(date 1725508442431)
+@@ -0,0 +1,36 @@
++//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
++// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
++//public class Answer5 {
++//
++//    public static void main(String[] args) {
++//     String name = "";
++//     String firstInitial = name.substring(0,1);
++
++// public class Answer5 {
++
++//    public static void main(String[] args) {
++//        // Difine array
++//        int[] arr = {5, 3, 8, 1, 2, 9};
++//        // Input array
++//        int secondSmallest = findSecondSmallest(arr);
++//        System.out.println("The element in an array: " + secondSmallest);
++//    }
++//
++//    public static int findSecondSmallest(int[] arr) {
++//        // Find smallest elemen
++//        int firstSmallest = Integer.MAX_VALUE, secondSmallest = Integer.MAX_VALUE;
++//
++//        // Initialize two variable
++//        for (int num : arr) {
++//            if (num < firstSmallest) {
++//                secondSmallest = firstSmallest;
++//                firstSmallest = num;
++//            } else if (num < secondSmallest && num != firstSmallest) {
++//                secondSmallest = num;
++//            }
++//        }
++//
++//        return secondSmallest;
++//    }
++//}
++
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+new file mode 100644
+--- /dev/null	(date 1725379195058)
++++ b/.idea/uiDesigner.xml	(date 1725379195058)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.svg" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: src/NumberGuessingGame.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/NumberGuessingGame.java b/src/NumberGuessingGame.java
+new file mode 100644
+--- /dev/null	(date 1725556585506)
++++ b/src/NumberGuessingGame.java	(date 1725556585506)
+@@ -0,0 +1,35 @@
++
++//
++//import java.util.Random;
++//import java.util.Scanner;
++//
++//
++//public class NumberGuessingGame {
++//
++//        public static void main(String[] args) {
++//
++//            Random random = new Random();
++//            Scanner scanner = new Scanner(System.in);
++//            int randomInt = random.nextInt(100) + 0;
++//
++//            System.out.println("Welcome to Number Guessing Game");
++//
++//            int n = 0;
++//            do {
++//                System.out.println("please enter a number between 1 until 100: ");
++//                n = scanner.nextInt();
++//
++//                if (n > randomInt) {
++//                    System.out.println(n + " is too high! Try again.");
++//                } else if (n < randomInt) {
++//                    System.out.println(n + " is too low! Try again.");
++//                } else {
++//                    System.out.println("Correct!!!");
++//                }
++//            }
++//            while (n!=randomInt);
++//
++//            scanner.close();
++//
++//        }
++//    }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"91a5c1bd-6e34-46c9-bbf1-264faf80d1ca\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/.gitignore\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/hallo.iml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/Answer1.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/Answer2.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/Answer3.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/Answer4.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/Answer5.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/Main.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"KubernetesApiPersistence\">{}</component>\n  <component name=\"KubernetesApiProvider\">{\n  &quot;isMigrated&quot;: true\n}</component>\n  <component name=\"ProblemsViewState\">\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 7\n}</component>\n  <component name=\"ProjectId\" id=\"2lV3e870cW4TsmDdoXCOFstEQRZ\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"Application.Answer1.executor\": \"Run\",\n    \"Application.Answer2.executor\": \"Run\",\n    \"Application.Answer3.executor\": \"Run\",\n    \"Application.Answer4.executor\": \"Run\",\n    \"Application.Answer5.executor\": \"Run\",\n    \"Application.Exercise.executor\": \"Run\",\n    \"Application.Hello.executor\": \"Run\",\n    \"Application.Main.executor\": \"Run\",\n    \"Application.Simple.executor\": \"Run\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"git-widget-placeholder\": \"master\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"onboarding.tips.debug.path\": \"/Users/emiljumadil/IdeaProjects/hallo/src/Main.java\",\n    \"settings.editor.selected.configurable\": \"preferences.general\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CreateClassDialog.RecentsKey\">\n      <recent name=\"Date Difference Calculator\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Application.Answer3\">\n    <configuration name=\"Answer3\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"Answer3\" />\n      <module name=\"hallo\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Answer4\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"Answer4\" />\n      <module name=\"hallo\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Answer5\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"UNNAMED_CLASS_CONFIGURATION\" value=\"true\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"Answer5\" />\n      <module name=\"hallo\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Hello\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"Hello\" />\n      <module name=\"hallo\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\n      <module name=\"hallo\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.Answer3\" />\n        <item itemvalue=\"Application.Hello\" />\n        <item itemvalue=\"Application.Main\" />\n        <item itemvalue=\"Application.Answer5\" />\n        <item itemvalue=\"Application.Answer4\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419\" />\n        <option value=\"bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"91a5c1bd-6e34-46c9-bbf1-264faf80d1ca\" name=\"Changes\" comment=\"\" />\n      <created>1725251508784</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1725251508784</updated>\n      <workItem from=\"1725251509998\" duration=\"41492000\" />\n      <workItem from=\"1725328253597\" duration=\"10292000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" type=\"java-method\">\n          <url>file://$PROJECT_DIR$/src/Answer2.java</url>\n          <line>3</line>\n          <properties class=\"Answer2\" method=\"main\">\n            <option name=\"EMULATED\" value=\"true\" />\n            <option name=\"WATCH_EXIT\" value=\"false\" />\n          </properties>\n          <option name=\"timeStamp\" value=\"15\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" type=\"java-method\">\n          <url>file://$PROJECT_DIR$/src/Main.java</url>\n          <line>54</line>\n          <properties class=\"Main\" method=\"main\">\n            <option name=\"EMULATED\" value=\"true\" />\n            <option name=\"WATCH_EXIT\" value=\"false\" />\n          </properties>\n          <option name=\"timeStamp\" value=\"17\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 045c7446fa930b3cb3017b3233c46090188b289e)
++++ b/.idea/workspace.xml	(date 1725557619818)
+@@ -4,19 +4,22 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="91a5c1bd-6e34-46c9-bbf1-264faf80d1ca" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/hallo.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Answer1.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Answer2.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Answer3.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Answer4.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Answer5.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
++    <list default="true" id="91a5c1bd-6e34-46c9-bbf1-264faf80d1ca" name="Changes" comment="feat : initial project">
++      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Day1/Answer5.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Day4/MultiplicationTable.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Day4/NumberGuessing.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Day4/Pattern.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Day4/SwapCharacter.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/NumberGuessingGame.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Answer1.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Answer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day1/Answer2.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Answer3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day1/Answer3.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Answer4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day1/Answer4.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Answer5.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Day2/Answer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day2/Answer1.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -26,11 +29,17 @@
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
++        <option value="AnnotationType" />
+         <option value="Class" />
+       </list>
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="PREVIOUS_COMMIT_AUTHORS">
++      <list>
++        <option value="emiljumadil &lt;emiljumadil@gmail.com&gt;" />
++      </list>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="KubernetesApiPersistence">{}</component>
+@@ -51,16 +60,40 @@
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
++    "Application.AnagramChecker.executor": "Run",
++    "Application.Anagrams.executor": "Run",
+     "Application.Answer1.executor": "Run",
+     "Application.Answer2.executor": "Run",
+     "Application.Answer3.executor": "Run",
+     "Application.Answer4.executor": "Run",
+     "Application.Answer5.executor": "Run",
++    "Application.Calcualator.executor": "Run",
++    "Application.Calculator.executor": "Run",
++    "Application.Calculattion.executor": "Run",
++    "Application.Day2.Answer1.executor": "Run",
++    "Application.Day4.MultiplicationTable.executor": "Run",
++    "Application.Digits.executor": "Run",
++    "Application.Exercies.executor": "Run",
+     "Application.Exercise.executor": "Run",
++    "Application.FahrenheitToCelsius.executor": "Run",
+     "Application.Hello.executor": "Run",
++    "Application.LargestElementFinder.executor": "Run",
+     "Application.Main.executor": "Run",
++    "Application.MultiplicationTable.executor": "Run",
++    "Application.NumberGuessingGame.executor": "Run",
++    "Application.Pattern (1).executor": "Run",
++    "Application.Pattern.executor": "Run",
++    "Application.PatternPrinter.executor": "Run",
++    "Application.RemoveFirstOccurrence.executor": "Run",
++    "Application.SecondSmallest.executor": "Run",
+     "Application.Simple.executor": "Run",
++    "Application.SimpleCalcualator.executor": "Run",
++    "Application.answer1.executor": "Run",
++    "Application.main.executor": "Run",
++    "Application.master.executor": "Run",
++    "Application.run.executor": "Run",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "git-widget-placeholder": "master",
+     "kotlin-language-version-configured": "true",
+     "node.js.detected.package.eslint": "true",
+@@ -76,52 +109,72 @@
+   <component name="RecentsManager">
+     <key name="CreateClassDialog.RecentsKey">
+       <recent name="Date Difference Calculator" />
++    </key>
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/src/Day1" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.Answer3">
+-    <configuration name="Answer3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Answer3" />
++  <component name="RunManager" selected="Application.NumberGuessingGame">
++    <configuration name="Day4.MultiplicationTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Day4.MultiplicationTable" />
+       <module name="hallo" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="Day4.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Answer4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Answer4" />
++    <configuration name="Exercies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Day4.Exercies" />
+       <module name="hallo" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="Day4.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Answer5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+-      <option name="MAIN_CLASS_NAME" value="Answer5" />
++    <configuration name="NumberGuessingGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="NumberGuessingGame" />
+       <module name="hallo" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Hello" />
++    <configuration name="Pattern (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Pattern" />
+       <module name="hallo" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Main" />
++    <configuration name="Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Day4.Pattern" />
+       <module name="hallo" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="Day4.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.Answer3" />
+-        <item itemvalue="Application.Hello" />
+-        <item itemvalue="Application.Main" />
+-        <item itemvalue="Application.Answer5" />
+-        <item itemvalue="Application.Answer4" />
++        <item itemvalue="Application.NumberGuessingGame" />
++        <item itemvalue="Application.Exercies" />
++        <item itemvalue="Application.Day4.MultiplicationTable" />
++        <item itemvalue="Application.Pattern" />
++        <item itemvalue="Application.Pattern (1)" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -142,8 +195,153 @@
+       <option name="presentableId" value="Default" />
+       <updated>1725251508784</updated>
+       <workItem from="1725251509998" duration="41492000" />
+-      <workItem from="1725328253597" duration="10292000" />
++      <workItem from="1725328253597" duration="128335000" />
++    </task>
++    <task id="LOCAL-00001" summary="feat : initial project">
++      <option name="closed" value="true" />
++      <created>1725380906436</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1725380906436</updated>
++    </task>
++    <task id="LOCAL-00002" summary="feat : initial project">
++      <option name="closed" value="true" />
++      <created>1725459203684</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1725459203684</updated>
++    </task>
++    <task id="LOCAL-00003" summary="feat : initial project">
++      <option name="closed" value="true" />
++      <created>1725459309346</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1725459309346</updated>
++    </task>
++    <task id="LOCAL-00004" summary="feat : initial project">
++      <option name="closed" value="true" />
++      <created>1725459400402</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1725459400402</updated>
++    </task>
++    <task id="LOCAL-00005" summary="feat : initial project">
++      <option name="closed" value="true" />
++      <created>1725459410284</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1725459410284</updated>
++    </task>
++    <task id="LOCAL-00006" summary="feat : initial project">
++      <option name="closed" value="true" />
++      <created>1725459419988</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1725459419989</updated>
+     </task>
++    <task id="LOCAL-00007" summary="feat : initial project">
++      <option name="closed" value="true" />
++      <created>1725459440601</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1725459440602</updated>
++    </task>
++    <task id="LOCAL-00008" summary="feat : initial project">
++      <option name="closed" value="true" />
++      <created>1725459714407</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1725459714407</updated>
++    </task>
++    <task id="LOCAL-00009" summary="feat : initial project">
++      <option name="closed" value="true" />
++      <created>1725459719448</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1725459719448</updated>
++    </task>
++    <task id="LOCAL-00010" summary="feat : initial project">
++      <option name="closed" value="true" />
++      <created>1725499242467</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1725499242467</updated>
++    </task>
++    <task id="LOCAL-00011" summary="feat : initial project">
++      <option name="closed" value="true" />
++      <created>1725499266689</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1725499266689</updated>
++    </task>
++    <task id="LOCAL-00012" summary="feat : initial project">
++      <option name="closed" value="true" />
++      <created>1725502909589</created>
++      <option name="number" value="00012" />
++      <option name="presentableId" value="LOCAL-00012" />
++      <option name="project" value="LOCAL" />
++      <updated>1725502909589</updated>
++    </task>
++    <task id="LOCAL-00013" summary="feat : initial project">
++      <option name="closed" value="true" />
++      <created>1725502921569</created>
++      <option name="number" value="00013" />
++      <option name="presentableId" value="LOCAL-00013" />
++      <option name="project" value="LOCAL" />
++      <updated>1725502921569</updated>
++    </task>
++    <task id="LOCAL-00014" summary="feat : initial project">
++      <option name="closed" value="true" />
++      <created>1725557408856</created>
++      <option name="number" value="00014" />
++      <option name="presentableId" value="LOCAL-00014" />
++      <option name="project" value="LOCAL" />
++      <updated>1725557408856</updated>
++    </task>
++    <task id="LOCAL-00015" summary="feat : initial project">
++      <option name="closed" value="true" />
++      <created>1725557419370</created>
++      <option name="number" value="00015" />
++      <option name="presentableId" value="LOCAL-00015" />
++      <option name="project" value="LOCAL" />
++      <updated>1725557419370</updated>
++    </task>
++    <task id="LOCAL-00016" summary="feat : initial project">
++      <option name="closed" value="true" />
++      <created>1725557445207</created>
++      <option name="number" value="00016" />
++      <option name="presentableId" value="LOCAL-00016" />
++      <option name="project" value="LOCAL" />
++      <updated>1725557445207</updated>
++    </task>
++    <task id="LOCAL-00017" summary="feat : initial project">
++      <option name="closed" value="true" />
++      <created>1725557558350</created>
++      <option name="number" value="00017" />
++      <option name="presentableId" value="LOCAL-00017" />
++      <option name="project" value="LOCAL" />
++      <updated>1725557558350</updated>
++    </task>
++    <task id="LOCAL-00018" summary="feat : initial project">
++      <option name="closed" value="true" />
++      <created>1725557591245</created>
++      <option name="number" value="00018" />
++      <option name="presentableId" value="LOCAL-00018" />
++      <option name="project" value="LOCAL" />
++      <updated>1725557591245</updated>
++    </task>
++    <option name="localTasksCounter" value="19" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -160,26 +358,19 @@
+       </map>
+     </option>
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="feat : initial projec" />
++    <MESSAGE value="feat : initial project]" />
++    <MESSAGE value="feat : initial project" />
++    <option name="LAST_COMMIT_MESSAGE" value="feat : initial project" />
++  </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+       <breakpoints>
+-        <line-breakpoint enabled="true" type="java-method">
+-          <url>file://$PROJECT_DIR$/src/Answer2.java</url>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/Day4/MultiplicationTable.java</url>
+           <line>3</line>
+-          <properties class="Answer2" method="main">
+-            <option name="EMULATED" value="true" />
+-            <option name="WATCH_EXIT" value="false" />
+-          </properties>
+-          <option name="timeStamp" value="15" />
+-        </line-breakpoint>
+-        <line-breakpoint enabled="true" type="java-method">
+-          <url>file://$PROJECT_DIR$/src/Main.java</url>
+-          <line>54</line>
+-          <properties class="Main" method="main">
+-            <option name="EMULATED" value="true" />
+-            <option name="WATCH_EXIT" value="false" />
+-          </properties>
+-          <option name="timeStamp" value="17" />
++          <option name="timeStamp" value="35" />
+         </line-breakpoint>
+       </breakpoints>
+     </breakpoint-manager>
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.time.LocalDate;\nimport java.time.temporal.ChronoUnit;\n\nimport java.util.Scanner;\n//TIP To <b>Run</b> code, press <shortcut actionId=\"Run\"/> or\n// click the <icon src=\"AllIcons.Actions.Execute\"/> icon in the gutter.\n//public class Main {\n//    private static Object Public;\n//        public static void main(String[] args) {\n//    // 1. Find area of rectangle {\n//        int length = 5;\n//        int width = 3;\n//        int legthAnwidth = 5 * 3;\n//\n//        System.out.println(legthAnwidth);\n//    }\n\n//    }\n\n//    public static void main(String[] args) {\n////        2. Find diameter, cirumferece and area of a circle\n//        int radius = 5;\n//\n////        Diameter, circumferece and area of a circle\n//        double diameter = 2 * radius;\n//        double circumference = 2 * Math.PI * radius;\n//        double area = Math.PI * Math.pow(radius,2);\n//\n//        System.out.println(diameter);\n//        System.out.println(circumference);\n//        System.out.println(area);\n//    }\n\n\n//    public static void main(String[] args) {\n////      3. Find angels of triangle if two angles are given\n//        double a = 80;\n//        double b = 65;\n//        double c = 180 - (80 + 65);\n//\n//        System.out.println(c);\n//    }\n//\n//    public static <localDateTime> void main(String[] args) {\n////           4. Get difference between dates in days\n//           LocalDate date1 = LocalDate.of(2024, 3, 19);\n//           LocalDate date2 = LocalDate.of(2024, 3, 21);\n//           long daysBetween = ChronoUnit.DAYS.between(date1, date2);\n//\n//           System.out.println(daysBetween);\n//       }\n\n\n\n//    public static void main(String[] args) {\n////    public static String findInitials (String Name) {\n////        5. Print my name initial in uppercase\n//        String[] nameSplit = Fullname.Split (\"Johe Doe\");\n//\n//        StringBuilder initials = new StringBuilder();\n//\n//\n//        for (int i=0; i<nameSplit.length; i++) {\n//            initials.append(String.valueOf(nameSplit[i].charAt(0)));\n//        }\n//\n//        return initials.toString();\n//        }\n//\n//    }\n\n//    public static void main(String[] args) {\n//        // Membuat Scanner untuk membaca input dari pengguna\n//        Scanner scanner = new Scanner(System.in);\n//\n//        // Meminta input nama lengkap dari pengguna\n//        System.out.print(\"Masukkan nama lengkap (misalnya John Doe): \");\n//        String namaLengkap = scanner.nextLine();\n//\n//        // Memproses nama untuk mendapatkan inisial\n//        String inisial = getInisial(namaLengkap);\n//\n//        // Menampilkan hasil\n//        System.out.println(\"Inisial: \" + inisial);\n//\n//        // Menutup Scanner\n//        scanner.close();\n//    }\n//\n//    // Fungsi untuk mendapatkan inisial dari nama lengkap\n//    public static String getInisial(String nama) {\n//        String[] namaBagian = nama.split(\" \");\n//        StringBuilder inisial = new StringBuilder();\n//\n//        // Mengambil huruf pertama dari setiap kata\n//        for (String bagian : namaBagian) {\n//            if (!bagian.isEmpty()) {\n//                inisial.append(Character.toUpperCase(bagian.charAt(0)));\n//            }\n//        }\n//\n//        return inisial.toString();\n//    }\n\n\n\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	(revision 045c7446fa930b3cb3017b3233c46090188b289e)
++++ b/src/Main.java	(date 1725528535783)
+@@ -1,10 +1,10 @@
+-import java.time.LocalDate;
+-import java.time.temporal.ChronoUnit;
+-
+-import java.util.Scanner;
++//import java.time.LocalDate;
++//import java.time.temporal.ChronoUnit;
++//
++//import java.util.Scanner;
+ //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+ // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+-//public class Main {
++// public class Main {
+ //    private static Object Public;
+ //        public static void main(String[] args) {
+ //    // 1. Find area of rectangle {
+@@ -14,9 +14,9 @@
+ //
+ //        System.out.println(legthAnwidth);
+ //    }
+-
++//
+ //    }
+-
++//
+ //    public static void main(String[] args) {
+ ////        2. Find diameter, cirumferece and area of a circle
+ //        int radius = 5;
+@@ -30,8 +30,8 @@
+ //        System.out.println(circumference);
+ //        System.out.println(area);
+ //    }
+-
+-
++//
++//
+ //    public static void main(String[] args) {
+ ////      3. Find angels of triangle if two angles are given
+ //        double a = 80;
+@@ -49,59 +49,16 @@
+ //
+ //           System.out.println(daysBetween);
+ //       }
+-
+-
+-
++//
++//
++//
+ //    public static void main(String[] args) {
+ ////    public static String findInitials (String Name) {
+ ////        5. Print my name initial in uppercase
+-//        String[] nameSplit = Fullname.Split ("Johe Doe");
+-//
+-//        StringBuilder initials = new StringBuilder();
+-//
+-//
+-//        for (int i=0; i<nameSplit.length; i++) {
+-//            initials.append(String.valueOf(nameSplit[i].charAt(0)));
+-//        }
+-//
+-//        return initials.toString();
+-//        }
+-//
+-//    }
+-
+-//    public static void main(String[] args) {
+-//        // Membuat Scanner untuk membaca input dari pengguna
+-//        Scanner scanner = new Scanner(System.in);
+-//
+-//        // Meminta input nama lengkap dari pengguna
+-//        System.out.print("Masukkan nama lengkap (misalnya John Doe): ");
+-//        String namaLengkap = scanner.nextLine();
+-//
+-//        // Memproses nama untuk mendapatkan inisial
+-//        String inisial = getInisial(namaLengkap);
+-//
+-//        // Menampilkan hasil
+-//        System.out.println("Inisial: " + inisial);
+-//
+-//        // Menutup Scanner
+-//        scanner.close();
+-//    }
+-//
+-//    // Fungsi untuk mendapatkan inisial dari nama lengkap
+-//    public static String getInisial(String nama) {
+-//        String[] namaBagian = nama.split(" ");
+-//        StringBuilder inisial = new StringBuilder();
++//        System.out.println("Name initials: " + NameInitials.getInitials("John Doe"));
+ //
+-//        // Mengambil huruf pertama dari setiap kata
+-//        for (String bagian : namaBagian) {
+-//            if (!bagian.isEmpty()) {
+-//                inisial.append(Character.toUpperCase(bagian.charAt(0)));
+-//            }
+-//        }
++//    }
+ //
+-//        return inisial.toString();
+-//    }
+-
+ 
+ 
+ 
+Index: src/Day4/SwapCharacter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Day4/SwapCharacter.java b/src/Day4/SwapCharacter.java
+new file mode 100644
+--- /dev/null	(date 1725557403587)
++++ b/src/Day4/SwapCharacter.java	(date 1725557403587)
+@@ -0,0 +1,23 @@
++//package Day4;
++//
++//import java.util.Scanner;
++//
++//public class SwapCharacter {
++//
++//        public static void SwapCharacter (){
++//            Scanner in = new Scanner(System.in);
++//            System.out.print("Type something: ");
++//            String inputString = in.nextLine();
++//            String SwapCharacter  = "";
++//            for (char c : inputString.toCharArray()) {
++//                if (Character.isUpperCase(c)) {
++//                    SwapCharacter += Character.toLowerCase(c);
++//                } else {
++//                    SwapCharacter += Character.toUpperCase(c);
++//                }
++//            }
++//
++//            System.out.println("Swapped case string: " + SwapCharacter);
++//
++//        }
++//    }
+Index: src/Day4/MultiplicationTable.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Day4/MultiplicationTable.java b/src/Day4/MultiplicationTable.java
+new file mode 100644
+--- /dev/null	(date 1725556585498)
++++ b/src/Day4/MultiplicationTable.java	(date 1725556585498)
+@@ -0,0 +1,39 @@
++
++//import java.util.Scanner;
++//
++// public class MultiplicationTable {
++//
++//    public static void printMultiplicationTable(int n) {
++//        System.out.print(" ");
++//        for (int i = 1; i <= n; i++) {
++//            System.out.printf("%4d", i);
++//        }
++//        System.out.println();
++//        System.out.println(" " + "--".repeat(n));
++//
++//        // Display multipication
++//        for (int i = 1; i <= n; i++) {
++//            System.out.printf("%2d |", i);
++//            for (int j = 1; j <= n; j++) {
++//                System.out.printf("%4d", i * j);
++//            }
++//            System.out.println();
++//        }
++//    }
++//
++//    public static void main(String[] args) {
++//        Scanner scanner = new Scanner(System.in);
++//
++//        System.out.print("Enter a number: ");
++//        int n = scanner.nextInt();
++//
++//        if (n <= 0) {
++//            System.out.println(" ");
++//        } else {
++//
++//            printMultiplicationTable(n);
++//        }
++//
++//    }
++//
++// }
