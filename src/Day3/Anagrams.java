@@ -20,11 +20,12 @@ public class Anagrams {
         // Sort the character arrays
         Arrays.sort(charArray1);
         Arrays.sort(charArray2);
-
-        // Compare sorted arrays
-        return Arrays.equals(charArray1, charArray2);
+        {
+            // Compare sorted arrays
+            return Arrays.equals(charArray1, charArray2);
+        }
     }
-}
+
     public static void main(String[] args) {
 
         String str1 = "listen";
@@ -35,4 +36,4 @@ public class Anagrams {
         str2 = "world";
         System.out.println("Whwther \"" + str1 + "\" and \"" + str2 + "\" is anagram? ");
     }
-
+}
