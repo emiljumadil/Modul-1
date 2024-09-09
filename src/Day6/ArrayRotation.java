@@ -22,12 +22,18 @@
 //            System.out.print(arr[i] + "");
 //        }
 //    }
-//    public static void main(String[] args) {
-//        int arr[] = { 1, 2, 3, 4, 5, 6, 7 };
-//        int N = arr.length;
-//        int d = 2;
+//    public static int rotate() {
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Pick rotator number :");
+//        int rotator = scanner.nextInt();
+//        scanner.nextInt();
+//        int[] temp = new int[rotator];
 //
-//        rotate(arr, d, N);
-//        PrintTheArray(arr, N);
+//        int[] arr = new int[0];
+//        int i;
+//        for (i = 0; i < rotator; i++) {
+//            temp[i] = arr[i]; //d=2 -> [1][2]
+//        }
+//        return temp[i];
 //    }
 //}
