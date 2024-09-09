@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a5c1bd-6e34-46c9-bbf1-264faf80d1ca" name="Changes" comment="feat initial project">
-      <change afterPath="$PROJECT_DIR$/src/Day6/ArrayDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day6/ArrayRotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day6/Exercies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day6/RemoveDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day3/Anagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day3/Anagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day3/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day3/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day3/Exercies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day3/Exercies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day4/Pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day4/Pattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day5/CurrencyConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day5/CurrencyConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day5/EvenNumbersFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day5/EvenNumbersFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day5/Exercies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day5/Exercies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day5/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day5/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day5/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day5/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day5/WordGuessingGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day5/WordGuessingGame.java" afterDir="false" />
-    </list>
+    <list default="true" id="91a5c1bd-6e34-46c9-bbf1-264faf80d1ca" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,12 +48,14 @@
     "Application.ArrayRotation.executor": "Run",
     "Application.Day5.EvenNumbersFilter.executor": "Run",
     "Application.EvenNumbersFilter.executor": "Run",
+    "Application.Exercies.executor": "Run",
     "Application.Exercise.executor": "Run",
     "Application.FizzBuzz.executor": "Run",
     "Application.Hello.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Pattern.executor": "Run",
     "Application.RemoveDuplicate.executor": "Run",
+    "Application.RemoveOccurrences.executor": "Run",
     "Application.Simple.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -93,7 +78,7 @@
       <recent name="Date Difference Calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveDuplicate">
+  <component name="RunManager" selected="Application.Exercies">
     <configuration name="ArrayDuplicates (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayDuplicates" />
       <module name="DTI-SE" />
@@ -101,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day6.ArrayDuplicates" />
+    <configuration name="ArrayRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day6.ArrayRotation" />
       <module name="DTI-SE" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day6.ArrayRotation" />
+    <configuration name="Exercies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day6.Exercies" />
       <module name="DTI-SE" />
       <extension name="coverage">
         <pattern>
@@ -134,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day5.TwoSum" />
+    <configuration name="RemoveOccurrences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day6.RemoveOccurrences" />
       <module name="DTI-SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day5.*" />
+          <option name="PATTERN" value="Day6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercies" />
+        <item itemvalue="Application.RemoveOccurrences" />
         <item itemvalue="Application.RemoveDuplicate" />
         <item itemvalue="Application.ArrayDuplicates (1)" />
         <item itemvalue="Application.ArrayRotation" />
-        <item itemvalue="Application.ArrayDuplicates" />
-        <item itemvalue="Application.TwoSum" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +173,7 @@
       <updated>1725251508784</updated>
       <workItem from="1725251509998" duration="41492000" />
       <workItem from="1725328253597" duration="10292000" />
+      <workItem from="1725905462843" duration="4175000" />
     </task>
     <servers />
   </component>
