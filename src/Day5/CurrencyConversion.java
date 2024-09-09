@@ -24,7 +24,7 @@
 //        private static double USD_TO_JPY = 147.65;
 //
 //        // Method to convert USD to EUR
-//        private static void convertUSDToEUR () {
+//        private static void convertUSDToEUR (Scanner scanner) {
 //            Scanner scanner = new Scanner(System.in);
 //            System.out.print("Enter the amount in USD: ");
 //            double usdAmount = scanner.nextDouble();

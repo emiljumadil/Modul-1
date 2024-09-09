@@ -1,21 +1,38 @@
 //package Day5;
+//import java.util.Scanner;
 //
 //public class FizzBuzz {
-//    public static void FizzBuzz(int n) {
+//
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Enter a number: ");
+//        int n = scanner.nextInt();
+//
+//        String result = fizzBuzz(n);
+//        System.out.println(result);
+//
+//        scanner.close();
+//    }
+//
+//    public static String fizzBuzz(int n) {
+//        StringBuilder result = new StringBuilder();
+//
 //        for (int i = 1; i <= n; i++) {
 //            if (i % 3 == 0 && i % 5 == 0) {
-//                System.out.println("FizzBuzz");
+//                result.append("FizzBuzz");
 //            } else if (i % 3 == 0) {
-//                System.out.println("Fizz");
+//                result.append("Fizz");
 //            } else if (i % 5 == 0) {
-//                System.out.println("Buzz");
+//                result.append("Buzz");
 //            } else {
-//                System.out.println(i);
+//                result.append(i);
+//            }
+//            if (i < n) {
+//                result.append(", ");
 //            }
 //        }
-//    }
-//    public static void main(String[] args) {
-//        int numberOfTimes = 15;
-//        FizzBuzz(numberOfTimes);
+//
+//        return result.toString();
 //    }
 //}
+//

@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a5c1bd-6e34-46c9-bbf1-264faf80d1ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hallo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Answer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Answer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Answer3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Answer4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Answer5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="91a5c1bd-6e34-46c9-bbf1-264faf80d1ca" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,12 +43,22 @@
     "Application.Answer3.executor": "Run",
     "Application.Answer4.executor": "Run",
     "Application.Answer5.executor": "Run",
+    "Application.ArrayDuplicates (1).executor": "Run",
+    "Application.ArrayDuplicates.executor": "Run",
+    "Application.ArrayRotation.executor": "Run",
+    "Application.Day5.EvenNumbersFilter.executor": "Run",
+    "Application.EvenNumbersFilter.executor": "Run",
+    "Application.Exercies.executor": "Run",
     "Application.Exercise.executor": "Run",
+    "Application.FizzBuzz.executor": "Run",
     "Application.Hello.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Pattern.executor": "Run",
+    "Application.RemoveDuplicate.executor": "Run",
+    "Application.RemoveOccurrences.executor": "Run",
     "Application.Simple.executor": "Run",
+    "Application.TwoSum.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -69,6 +66,9 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/emiljumadil/IdeaProjects/hallo/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.general",
     "vue.rearranger.settings.migration": "true"
   }
@@ -78,50 +78,80 @@
       <recent name="Date Difference Calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Answer3">
-    <configuration name="Answer3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Answer3" />
-      <module name="hallo" />
+  <component name="RunManager" selected="Application.Exercies">
+    <configuration name="ArrayDuplicates (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayDuplicates" />
+      <module name="DTI-SE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Answer4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Answer4" />
-      <module name="hallo" />
+    <configuration name="ArrayRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day6.ArrayRotation" />
+      <module name="DTI-SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Answer5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Answer5" />
-      <module name="hallo" />
+    <configuration name="Exercies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day6.Exercies" />
+      <module name="DTI-SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hello" />
-      <module name="hallo" />
+    <configuration name="RemoveDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoveDuplicate" />
+      <module name="DTI-SE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="hallo" />
+    <configuration name="RemoveOccurrences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day6.RemoveOccurrences" />
+      <module name="DTI-SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="DTI-SE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="DTI-SE" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Answer3" />
-        <item itemvalue="Application.Hello" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Answer5" />
-        <item itemvalue="Application.Answer4" />
+        <item itemvalue="Application.Exercies" />
+        <item itemvalue="Application.RemoveOccurrences" />
+        <item itemvalue="Application.RemoveDuplicate" />
+        <item itemvalue="Application.ArrayDuplicates (1)" />
+        <item itemvalue="Application.ArrayRotation" />
       </list>
     </recent_temporary>
   </component>
@@ -143,6 +173,7 @@
       <updated>1725251508784</updated>
       <workItem from="1725251509998" duration="41492000" />
       <workItem from="1725328253597" duration="10292000" />
+      <workItem from="1725905462843" duration="4175000" />
     </task>
     <servers />
   </component>
@@ -164,18 +195,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Answer2.java</url>
-          <line>3</line>
-          <properties class="Answer2" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>54</line>
-          <properties class="Main" method="main">
+          <properties class="Main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

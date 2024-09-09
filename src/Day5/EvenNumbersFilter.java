@@ -1,4 +1,4 @@
-////package Day5;
+//package Day5;
 //
 //import java.util.ArrayList;
 //import java.util.Arrays;
@@ -6,6 +6,7 @@
 //public class EvenNumbersFilter {
 //
 //    public static int[] removeOddNumbers(int[] inputArray) {
+//
 //        ArrayList<Integer> evenNumbersList = new ArrayList<>();
 //
 //        for (int number : inputArray) {
