@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -62,6 +63,7 @@
     "Application.ReverseString2.executor": "Run",
     "Application.Simple.executor": "Run",
     "Application.Ticketing.executor": "Run",
+    "Application.ToDoApp.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
@@ -80,10 +82,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Day8" />
       <recent name="Date Difference Calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ticketing">
+  <component name="RunManager" selected="Application.ToDoApp">
     <configuration name="CalculatesSummary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day7.CalculatesSummary" />
       <module name="DTI-SE" />
@@ -117,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day6.ReverseString2" />
+    <configuration name="Ticketing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day8.Ticketing" />
       <module name="DTI-SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day6.*" />
+          <option name="PATTERN" value="Day8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ticketing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day8.Ticketing" />
+    <configuration name="ToDoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day9.ToDoApp" />
       <module name="DTI-SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day8.*" />
+          <option name="PATTERN" value="Day9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ToDoApp" />
         <item itemvalue="Application.Ticketing" />
         <item itemvalue="Application.Day7.Exercies" />
         <item itemvalue="Application.CalculatesSummary" />
         <item itemvalue="Application.MultiplicationTable" />
-        <item itemvalue="Application.ReverseString2" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +216,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Day8/TiketingSystem.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

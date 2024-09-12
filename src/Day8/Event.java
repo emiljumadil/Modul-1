@@ -1,5 +1,6 @@
 package Day8;
 
+import java.util.Collection;
 import java.util.List;
 import java.util.Objects;
 
@@ -9,6 +10,12 @@ public class Event {
     private double price;
     private List<Event.Ticketable> Ticketable;
     private Object tiket;
+
+    public Event(String garudaTavelFair, int i, int i1) {
+        ticketAvailable = i;
+        eventName = garudaTavelFair;
+        price = i1;
+    }
 
     public void buyTicket(String userName) {
         if (this.ticketAvailable > 0) {
@@ -26,7 +33,7 @@ public class Event {
         }
     }
 
-    public List<Ticketable> getAllTickets() {
+    public Collection<? extends Ticketing> getAllTickets() {
         return this.Ticketable;
     }
 
@@ -66,6 +73,10 @@ public class Event {
             System.out.println("Price : " + t.getPrice());;
             System.out.println();
         }
+    }
+
+    public int getSingleTicket() {
+        return this.ticketAvailable;
     }
 
     private static class Ticketable {
