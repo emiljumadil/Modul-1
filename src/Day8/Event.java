@@ -34,7 +34,8 @@ public class Event {
     }
 
     public Collection<? extends Ticketing> getAllTickets() {
-        return this.Ticketable;
+        getAllTickets();
+        return List.of();
     }
 
     public Ticketable getSingleTicket(String id) {

@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a5c1bd-6e34-46c9-bbf1-264faf80d1ca" name="Changes" comment="" />
+    <list default="true" id="91a5c1bd-6e34-46c9-bbf1-264faf80d1ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day10/Books.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day10/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day10/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day8/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day8/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day8/Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day8/Exercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day8/TiketingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day8/TiketingSystem.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +60,7 @@
     "Application.Day5.EvenNumbersFilter.executor": "Run",
     "Application.Day7.Exercies.executor": "Run",
     "Application.EvenNumbersFilter.executor": "Run",
+    "Application.Example.executor": "Run",
     "Application.Exercies.executor": "Run",
     "Application.Exercise.executor": "Run",
     "Application.FizzBuzz.executor": "Run",
@@ -66,6 +76,8 @@
     "Application.ToDoApp.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "dev",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -86,20 +98,7 @@
       <recent name="Date Difference Calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ToDoApp">
-    <configuration name="CalculatesSummary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day7.CalculatesSummary" />
-      <module name="DTI-SE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Example">
     <configuration name="Day7.Exercies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day7.Exercies" />
       <module name="DTI-SE" />
@@ -113,9 +112,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplicationTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiplicationTable" />
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="resources.Example" />
       <module name="DTI-SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="resources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day8.Exercise" />
+      <module name="DTI-SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,26 +164,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="DTI-SE" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="DTI-SE" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ToDoApp" />
+        <item itemvalue="Application.Example" />
+        <item itemvalue="Application.Exercise" />
         <item itemvalue="Application.Ticketing" />
+        <item itemvalue="Application.ToDoApp" />
         <item itemvalue="Application.Day7.Exercies" />
-        <item itemvalue="Application.CalculatesSummary" />
-        <item itemvalue="Application.MultiplicationTable" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +193,7 @@
       <workItem from="1725251509998" duration="41492000" />
       <workItem from="1725328253597" duration="10292000" />
       <workItem from="1725905462843" duration="4175000" />
+      <workItem from="1726159806532" duration="12644000" />
     </task>
     <servers />
   </component>
@@ -216,11 +222,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Day8/TiketingSystem.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
