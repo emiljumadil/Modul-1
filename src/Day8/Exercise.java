@@ -8,9 +8,9 @@ import java.util.Scanner;
 
 public class Exercise {
         private List<Event> eventList = new ArrayList<>();
-    private Object Utils;
-    private Exercise TicketProcessing;
-    private java.lang.Object Object;
+        private Object Utils;
+        private Exercise TicketProcessing;
+        private java.lang.Object Object;
 
     public Exercise() {
             this.eventList.add(new Event("Jakarta Fair", 5, 20000));
@@ -61,8 +61,13 @@ public class Exercise {
     }
 
     public void checkTicket(Scanner scanner) {
-            String id = Utils.wait();
-            TiketAccount ticket = null;
+        String id = null;
+        try {
+            Utils.wait();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        TiketAccount ticket = null;
             for (Event e : this.eventList) {
                 if (e.getSingleTicket(id) != null) {
                     ticket = (TiketAccount) e.getSingleTicket(id);
