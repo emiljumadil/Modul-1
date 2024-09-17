@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91a5c1bd-6e34-46c9-bbf1-264faf80d1ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day10/Books.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day10/Exercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day10/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day8/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day8/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day8/Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day8/Exercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day8/TiketingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day8/TiketingSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day10/Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day10/Exercise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,16 +59,20 @@
     "Application.EvenNumbersFilter.executor": "Run",
     "Application.Example.executor": "Run",
     "Application.Exercies.executor": "Run",
+    "Application.Exercise (1).executor": "Run",
     "Application.Exercise.executor": "Run",
     "Application.FizzBuzz.executor": "Run",
     "Application.Hello.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MultiplicationTable.executor": "Run",
+    "Application.Node.executor": "Run",
     "Application.Pattern.executor": "Run",
+    "Application.Queue.executor": "Run",
     "Application.RemoveDuplicate.executor": "Run",
     "Application.RemoveOccurrences.executor": "Run",
     "Application.ReverseString2.executor": "Run",
     "Application.Simple.executor": "Run",
+    "Application.Stack.executor": "Run",
     "Application.Ticketing.executor": "Run",
     "Application.ToDoApp.executor": "Run",
     "Application.TwoSum.executor": "Run",
@@ -98,20 +99,7 @@
       <recent name="Date Difference Calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Example">
-    <configuration name="Day7.Exercies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day7.Exercies" />
-      <module name="DTI-SE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Node">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="resources.Example" />
       <module name="DTI-SE" />
@@ -125,12 +113,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day8.Exercise" />
+    <configuration name="Exercise (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Exercise" />
+      <module name="DTI-SE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Node" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11.Node" />
       <module name="DTI-SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day8.*" />
+          <option name="PATTERN" value="Day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,25 +134,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ticketing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day8.Ticketing" />
+    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Queue" />
       <module name="DTI-SE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToDoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day9.ToDoApp" />
+    <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11.Stack" />
       <module name="DTI-SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day9.*" />
+          <option name="PATTERN" value="Day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Node" />
+        <item itemvalue="Application.Queue" />
+        <item itemvalue="Application.Exercise (1)" />
+        <item itemvalue="Application.Stack" />
         <item itemvalue="Application.Example" />
-        <item itemvalue="Application.Exercise" />
-        <item itemvalue="Application.Ticketing" />
-        <item itemvalue="Application.ToDoApp" />
-        <item itemvalue="Application.Day7.Exercies" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +184,7 @@
       <workItem from="1725251509998" duration="41492000" />
       <workItem from="1725328253597" duration="10292000" />
       <workItem from="1725905462843" duration="4175000" />
-      <workItem from="1726159806532" duration="12644000" />
+      <workItem from="1726159806532" duration="42760000" />
     </task>
     <servers />
   </component>
